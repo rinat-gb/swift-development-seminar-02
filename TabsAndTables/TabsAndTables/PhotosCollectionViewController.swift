@@ -8,10 +8,11 @@
 import UIKit
 
 class PhotosCollectionViewController: UICollectionViewController {
-    let myCellIdentifier: String = "MyPhotoCell"
+    private let myCellIdentifier: String = "MyPhotoCell"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Фото"
         collectionView.backgroundColor = .systemBackground
         collectionView.register(MyPhotoCell.self, forCellWithReuseIdentifier: myCellIdentifier)
     }

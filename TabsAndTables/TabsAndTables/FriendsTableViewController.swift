@@ -11,6 +11,7 @@ class FriendTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        title = "Друзья"
     }
 
     override func numberOfSections(in _: UITableView) -> Int {

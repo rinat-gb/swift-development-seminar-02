@@ -11,6 +11,7 @@ class GroupsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        title = "Группы"
     }
 
     override func numberOfSections(in _: UITableView) -> Int {
